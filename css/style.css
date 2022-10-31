@@ -1,0 +1,302 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.back {
+    background: url("../imgs/kyrgyzstan-mountains.jpg") center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.back::before {
+    content: '';
+    position: absolute;
+    background-color: #00000080;
+    height: 100vh;
+    width: 100%;
+}
+
+/* 1,2 page */
+
+
+.title {
+    bottom: 45px;
+    font-size: 20px;
+    left: 30px;
+}
+
+.a {
+    transition: .3s ease;
+}
+
+.a:hover {
+    transition: .3s ease;
+    transform: scale(1.03);
+
+}
+
+/*.title:hover{*/
+/*    transition: .4s ease;*/
+/*    bottom: 55px;*/
+/*}*/
+
+.subtitle {
+    bottom: 11px;
+    font-size: 16px;
+    left: 30px;
+}
+
+.bgd {
+    position: relative;
+    background: url("../imgs/Ala-kol.jpg") center/cover fixed;
+}
+
+.bgd::before {
+    content: '';
+    position: absolute;
+    background-color: #00000065;
+    height: 100%;
+    margin-top: -2.95rem;
+    width: 100%;
+}
+
+.is {
+    color: #bdbdbd;
+    transition: .1s ease;
+
+}
+
+.is:hover {
+    transition: .1s ease;
+    color: #222222;
+}
+
+
+.social li {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+
+.items{
+    width: auto !important;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.sl1 .owl-carousel .owl-nav.disabled,
+.sl2 .owl-carousel .owl-nav.disabled{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sl1 .owl-theme .owl-dots .owl-dot,
+.sl2 .owl-theme .owl-dots .owl-dot{
+    display: none !important;
+}
+
+.sl1 .owl-carousel .owl-nav button.owl-next,
+.sl2 .owl-carousel .owl-nav button.owl-next{
+    font-size: 35px;
+    position: absolute;
+    top: -55px;
+    margin-left: 20px;
+}
+
+.sl1 .owl-carousel .owl-nav button.owl-next:hover,
+.sl2 .owl-carousel .owl-nav button.owl-next:hover{
+    background: none;
+    color: #4f5050;
+}
+
+.sl1 .owl-carousel .owl-nav button.owl-prev:hover,
+.sl2 .owl-carousel .owl-nav button.owl-prev:hover{
+    background: none;
+    color: #4f5050;
+}
+
+.sl1 .owl-carousel .owl-nav button.owl-prev,
+.sl2 .owl-carousel .owl-nav button.owl-prev{
+    font-size: 35px;
+    position: absolute;
+    top: -55px;
+    margin-right: 20px;
+}
+
+
+.goTop{
+    position: fixed;
+    z-index: 1;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background: #FF6621;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+
+
+
+/* end of first page*/
+
+
+/* sec page*/
+
+/*.an{*/
+/*    transition: .4s ease;*/
+/*}*/
+
+/*.an:hover{*/
+/*    transform: scale(1);*/
+/*    transition: .4s ease;*/
+/*}*/
+
+.bd-callout{
+    padding: 1.05rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+    background: #f5f1f1;
+}
+
+.bd-callout-warning{
+    border-left-color: #FF6621;
+}
+
+.slides img{
+    width: 750.729px !important;
+    height: 489px;
+    top: 0;
+}
+
+
+
+.sl3 .owl-carousel .owl-nav.disabled{
+    display: flex;
+    justify-content: center;
+}
+
+.sl3 .owl-theme .owl-dots .owl-dot{
+    display: none !important;
+}
+
+.sl3 .owl-carousel .owl-nav button.owl-next{
+    font-size: 65px;
+    position: absolute;
+    top: 37%;
+    right: 0;
+    margin-left: 20px;
+    color: #FF6621;
+}
+
+.sl3 .owl-carousel .owl-nav button.owl-next:hover{
+    background: none;
+    color: #ad4618;
+}
+
+.sl3 .owl-carousel .owl-nav button.owl-prev:hover{
+    background: none;
+    color: #ad4618;
+}
+
+.sl3 .owl-carousel .owl-nav button.owl-prev{
+    font-size: 65px;
+    position: absolute;
+    top: 37%;
+    left: 0;
+    margin-right: 20px;
+    color: #FF6621;
+}
+
+header .bgd{
+    height: 300px;
+    background-position: bottom;
+}
+
+header .bgd::before{
+    content: '';
+    position: absolute;
+    height: 0;
+    margin-top: 0;
+    width: 0;
+}
+
+section .marks{
+    margin: 0 0 15px 15px;
+    padding-left: 20px;
+}
+
+section blockquote{
+    background: #eee;
+    padding: 40px;
+    margin: 0 0 15px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 1.45;
+    position: relative;
+}
+
+section blockquote::before{
+    display: block;
+    content: "\201C";
+    font-size: 50px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    color: #555;
+}
+
+
+/* third page*/
+header .bgds{
+    height: 300px;
+}
+
+header .bgds{
+    background: url("../imgs/362273-svetik_2880x1800-kopiya.jpg") center/cover;
+}
+
+
+.links a{
+    color: #FF6621;
+}
+
+/* fifth page*/
+
+header .bgd1{
+    background: url("../imgs/52779_original-e1524872367780.jpg") center/cover;
+}
+
+/* fifth page*/
+
+header .bgd2{
+    background: url("../imgs/skl.jpg") center/cover no-repeat;
+}
+
+header .bgd3{
+    background: url("../imgs/Ala-archa1.jpg") center/cover no-repeat;
+}
+
+
+/* ninth page*/
+
+header .bgbs{
+    background: url("../imgs/original_bishkek_photo_hdzugvz-e1523868725389.jpg") center/cover no-repeat;
+}
+
+
+/* final page*/
+
+
+header .bgmp{
+    background: url("../imgs/map-kyrgyzstan-e1521717784319.jpg") center/cover no-repeat;
+}
